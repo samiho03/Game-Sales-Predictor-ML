@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Game Sales Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .wrapper {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .inputfield {
+            text-align: left;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .input, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        .result {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">Video Game Sales Predictor</div>
+        <form action="/" method="POST">
+            <div class="form">
+                <div class="inputfield">
+                    <label for="year">Release Year</label>
+                    <input class="input" type="text" name="year" required>
+                </div>
+                <div class="inputfield">
+                    <label for="na_sales">NA Sales (in millions)</label>
+                    <input class="input" type="text" name="na_sales" required>
+                </div>
+                <div class="inputfield">
+                    <label for="eu_sales">EU Sales (in millions)</label>
+                    <input class="input" type="text" name="eu_sales" required>
+                </div>
+                <div class="inputfield">
+                    <label for="jp_sales">JP Sales (in millions)</label>
+                    <input class="input" type="text" name="jp_sales" required>
+                </div>
+                <div class="inputfield">
+                    <label for="other_sales">Other Sales (in millions)</label>
+                    <input class="input" type="text" name="other_sales" required>
+                </div>
+                <div class="inputfield">
+                    <label for="platform">Platform</label>
+                    <select name="platform" id="platform" required>
+                        <option value="" selected hidden>Select</option>
+                        <option value="PS2">PS2</option>
+                        <option value="PS3">PS3</option>
+                        <option value="X360">X360</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="inputfield">
+                    <label for="genre">Genre</label>
+                    <select name="genre" id="genre" required>
+                        <option value="" selected hidden>Select</option>
+                        <option value="Action">Action</option>
+                        <option value="Shooter">Shooter</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="inputfield">
+                    <label for="publisher">Publisher</label>
+                    <select name="publisher" id="publisher" required>
+                        <option value="" selected hidden>Select</option>
+                        <option value="Electronic Arts">Electronic Arts</option>
+                        <option value="Nintendo">Nintendo</option>
+                        <option value="Sony Computer Entertainment">Sony Computer Entertainment</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="inputfield">
+                    <input class="btn" type="submit" value="Predict Sales">
+                </div>
+            </div>
+        </form>
+        <div class="result">
+            {% if pred_value != 0 %}
+            <p>Estimated Sales: {{ pred_value }} million copies</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
