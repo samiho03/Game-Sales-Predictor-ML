@@ -23,7 +23,7 @@ By inputting specific details about a game, users can obtain an estimated sales 
 
 ---
 
-## 🖼 Interface Previews
+## Interface Previews
 
 📌 **Home Page**  
 *Includes animated transitions and a clean layout to guide the user smoothly through the experience.*  
