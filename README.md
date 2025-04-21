@@ -17,19 +17,24 @@ By inputting specific details about a game, users can obtain an estimated sales 
 - **Interactive User Interface** – Intuitive forms for inputting game details  
 - **Real-time Predictions** – Instant sales forecasts upon data submission  
 - **Data Visualization** – Graphical representations of input data and predictions  
+- **Eye-catching Animations** – Smooth, user-friendly transitions and effects for an engaging experience  
 - **Responsive Design** – Accessible across various devices and screen sizes  
+
 
 ---
 
 ## 🖼 Interface Previews
 
 📌 **Home Page**  
+*Includes animated transitions and a clean layout to guide the user smoothly through the experience.*  
 ![Home Page](https://github.com/samiho03/Game-Sales-Predictor-ML/blob/main/homepage)
 
 📌 **Prediction Form**  
+*Features animated input highlights and smooth loading indicators.*  
 ![Prediction Form](https://github.com/samiho03/Game-Sales-Predictor-ML/blob/main/PredictionForm)
 
 📌 **Results Display**  
+*Displays results with animated charts or highlighted text for instant feedback.*  
 ![Results Display](https://github.com/samiho03/Game-Sales-Predictor-ML/blob/main/Results)
 
 ---
