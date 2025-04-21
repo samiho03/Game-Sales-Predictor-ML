@@ -42,18 +42,19 @@ By inputting specific details about a game, users can obtain an estimated sales 
 ## Technologies Used
 
 **Frontend:**
-- HTML5  
-- CSS3  
-- React 
+- React (JavaScript)
+- CSS Modules
+- Lucide React Icons (for aesthetic UI components)
 
 **Backend:**
-- Python  
-- Flask  
+- Python
+- Flask
 
 **Machine Learning:**
-- Scikit-learn  
-- Pandas  
-- NumPy  
+- Scikit-learn
+- Pandas
+- NumPy
+  
 
 ---
 
