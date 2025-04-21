@@ -42,7 +42,7 @@ By inputting specific details about a game, users can obtain an estimated sales 
 ## Technologies Used
 
 **Frontend:**
-- React (JavaScript)
+- ReactJS
 - CSS Modules
 - Lucide React Icons (for aesthetic UI components)
 
