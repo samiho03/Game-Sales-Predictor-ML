@@ -24,7 +24,7 @@ By inputting specific details about a game, users can obtain an estimated sales 
 ## 🖼 Interface Previews
 
 📌 **Home Page**  
-![Home Page](path_to_home_page_image)
+![Home Page](Screenshot 2025-03-25 173410.png)
 
 📌 **Prediction Form**  
 ![Prediction Form](path_to_prediction_form_image)
