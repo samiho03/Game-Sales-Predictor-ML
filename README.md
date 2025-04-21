@@ -27,7 +27,7 @@ By inputting specific details about a game, users can obtain an estimated sales 
 ![Home Page](https://github.com/samiho03/Game-Sales-Predictor-ML/blob/main/homepage)
 
 📌 **Prediction Form**  
-![Prediction Form](path_to_prediction_form_image)
+![Prediction Form](https://github.com/samiho03/Game-Sales-Predictor-ML/blob/main/PredictionForm)
 
 📌 **Results Display**  
 ![Results Display](path_to_results_display_image)
